@@ -1,16 +1,38 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-    body{
-        background: #BDBDBD;
-    }
-    
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+  background: green;
+}
 
-*/
+.container {
+  padding: 20%;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#topsuit {
+  font-size: 70px;
+}
+#botoomsuit {
+  font-size: 70px;
+}
+.row1 {
+  height: 33.3333%;
+}
+.row2 {
+  height: 33.3333%;
+  text-align: center;
+  font-size: 150px;
+}
+
+.row3 {
+  height: 33.3333%;
+  text-align: end;
+  padding-top: 65px;
+  margin-bottom: 30px;
+}
